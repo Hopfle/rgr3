@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title> 
+    <link rel="stylesheet" href="gallery.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"> </script>
+</head>
+<body>
+    <h1> Галерея </h1>
+    <div class="imageContainer">
+        <div class="img">
+            <img src="photo_2024-06-11_00-33-06 (3).jpg" alt="">
+        </div>
+        <div class="img">
+            <img src="photo_2024-06-11_00-33-06 (4).jpg" alt="">
+        </div>
+        <div class="img">
+            <img src="photo_2024-06-11_00-33-06 (5).jpg" alt="">
+        </div>
+        <div class="img">
+            <img src="photo_2024-06-11_00-33-06 (6).jpg" alt="">
+        </div>
+        <div class="img">
+            <img src="photo_2024-06-11_00-38-04.jpg" alt="">
+        </div>
+           <div class="img">
+            <img src="photo_2024-06-11_00-33-06 (8).jpg" alt="">
+        </div>
+        <div class="img">
+            <img src="DSC_3858.jpg" alt="">
+        </div>
+        <div class="img">
+            <img src="IMG_5404.jpg" alt="">
+        </div>
+        </div>
+        <div class="popingup" id="popup">
+            <span>&times;</span>
+            <img src="photo_2024-06-11_00-33-06 (8).jpg" alt="">
+        </div>
+    
+        <script>
+            document.querySelectorAll('.imageContainer .img img').forEach(img => {
+                img.addEventListener('click', function() {
+                    let popup = document.getElementById('popup');
+                    let popupImg = popup.querySelector('img');
+                    popupImg.src = this.src;
+                    popup.style.display = 'flex';
+                });
+            });
+    
+            document.querySelector('.popingup span').addEventListener('click', function() {
+                document.getElementById('popup').style.display = 'none';
+            });
+        </script>
+        <br>
+        <a href="index.html">Вихiд</a>
+
+
+</body>
+</html>

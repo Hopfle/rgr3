@@ -1,0 +1,355 @@
+* {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 23%;
+    background-color: #303030;
+
+}
+.logo{
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 23%;
+    background-color: #303030;
+
+}
+.logo img{
+    position: relative;
+    height: auto;
+    margin-left: 20px;
+    height: 90%;
+}
+.references{
+    overflow: hidden;
+    padding: 15px 0 0 13px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    background-color: none;
+    height: 30%;
+    bottom:55%;
+    width: 24%;
+    left: 70%;
+    gap: 20px;
+}
+.references a{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow: hidden;
+    text-decoration: none;
+    color: wheat;
+    height: auto;
+    font-size: 27px;
+    transition: transform 1.2s ease;
+
+}
+.references a:hover{
+    transform: scale(1.2);
+
+}
+body{
+    background-image: url("1611251984_27-p-svetlo-serii-fon-dlya-saita-29.jpg");
+}
+.logo .name{
+    position: absolute; 
+    top: 60px; 
+
+    color: wheat;
+    left: 10%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+.Sitting{
+    position: absolute;
+    width: 20%;
+    top: 28%;
+    left: 2%;
+    border-radius: 6px;
+    border: 5px solid grey;
+}
+.text{
+    position: absolute;
+    top: 28%;
+    left: 25%;
+    width: 75%;
+    font-size: 18.5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    border: 2px solid #181818; 
+    padding: 10px 10px 10px 10px;
+    background-color: #303030;
+    border-radius: 4px;
+    color: wheat;
+    
+
+}
+.date-container {
+    overflow: hidden;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    top: 7%;
+    bottom: 10px;
+    left: 42.5%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    color: wheat;
+    font-size: 20px;
+}       
+#current-date{
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    left: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: 60px;
+
+}
+#current-date1
+{
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    left: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: 60px;
+}
+marquee{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 70%;
+    background-color: #303030;
+    color: white;
+    height: 20%;
+    font-size: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.footer{
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    top:92%;
+    height: 30%;
+    background-color: #303030;
+
+}
+.footer .maga{
+    position: relative;
+    width: 10%;
+    left:17%;
+    top:9%;
+
+}
+.here{
+    position: absolute;
+    top:8%;
+    color: white;
+    left: 15%;
+    width: 60%;
+
+}
+.here1{
+    position: absolute;
+    top:95%;
+    color: white;
+    left: 15%;
+    width: 60%;
+
+}
+.contacts{
+    position: relative;
+    bottom: 70%;
+    left: 30%;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.map{
+    position: absolute;
+    left: 30%;
+    top: 5%;
+    width: 30%;
+    height: 90%;
+
+}
+@media screen and (max-width: 576px) {
+    .logo{
+        position: absolute;
+        width: 100%;
+        height: 23%;
+        background-color: #303030;
+    
+    }
+    .logo img{
+        position: relative;
+        height: auto;
+        margin-left: 20px;
+        width: 12%;
+        top: 30px;
+    
+    }
+    .references{
+        padding: 15px 0 0 13px;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        background-color: none;
+        height: 30%;
+        bottom:55%;
+        width: 24%;
+        left: 64%;
+        gap: 20px;
+        bottom: 27px;
+    }
+    .references a{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+        text-decoration: none;
+        color: wheat;
+        height: auto;
+        font-size: 14px;
+        transition: transform 1.2s ease;
+        white-space: nowrap;
+    
+    }
+    .references a:hover{
+        transform: scale(1.2);
+    
+    }
+    body{
+        background-image: url("1611251984_27-p-svetlo-serii-fon-dlya-saita-29.jpg");
+    }
+    .logo .name{
+        position: absolute; 
+        top: 60px; 
+    
+        color: wheat;
+        left: 18%;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 12px;
+    }
+    .Sitting{
+        position: absolute;
+        width: 22%;
+        top: 40%;
+        left: 2%;
+        border-radius: 6px;
+        border: 5px solid grey;
+    }
+    .text{
+        position: absolute;
+        top: 28%;
+        left: 25%;
+        width: 73%;
+        font-size:9px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+        border: 2px solid #181818; 
+        padding: 10px 10px 10px 10px;
+        background-color: #303030;
+        border-radius: 4px;
+        color: wheat;
+        
+    
+    }
+    .date-container {
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        top: 7%;
+        bottom: 10px;
+        left: 42.5%;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+        color: wheat;
+        font-size: 20px;
+    }       
+    #current-date{
+        position: relative;
+        top: 15px;
+        left: 27px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: white;
+        font-size: 30px;
+    
+    }
+    #current-date1
+    {
+        position: relative;
+        top: 15px;
+        left: 27px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: white;
+        font-size: 30px;
+    }
+    marquee{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        top: 76%;
+        background-color: #303030;
+        color: white;
+        height: 12%;
+        font-size: 20px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    }
+    .footer{
+        position: absolute;
+        width: 100%;
+        top:90%;
+        height: 30%;
+        background-color: #303030;
+    
+    }
+    .footer .maga{
+        position: relative;
+        width: 24%;
+        left:3%;
+        top:9%;
+    
+    }
+    .here{
+        position: absolute;
+        top:8%;
+        color: white;
+        left: 5%;
+        width: 90%;
+    
+    }
+    .here1{
+        position: absolute;
+        top:95%;
+        color: white;
+        left: 5%;
+        width: 90%;
+    
+    }
+    .contacts{
+        font-size: 13px;
+        position: relative;
+        bottom: 70%;
+        left: 28%;
+        color: white;
+    bottom: 73%;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .map{
+        position: absolute;
+        left: 35%;
+        top: 37%;
+        width: 32%;
+        height: 62%;
+    }
+}
